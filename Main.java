@@ -3,7 +3,6 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         Lexer lexer = new Lexer();
-
         while (lexer.getReaderState() == false) {
             lexer.scan();
         }
